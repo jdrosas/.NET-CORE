@@ -1,0 +1,16 @@
+﻿@model IEnumerable<string>
+
+@{
+    Layout = null;
+}
+
+<html>
+<body>
+    <ul>
+        @foreach (var nombre in Model)
+        {
+            <li>@nombre</li>
+        }
+    </ul>
+</body>
+</html>

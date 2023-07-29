@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\prj03_02.bundle.scp.css"
     },
     {
+      "Id": "D:\\Desarrollos\\Intecap\\prj03_02\\prj03_02\\wwwroot\\css\\Styles.css",
+      "PackagePath": "staticwebassets\\css\\Styles.css"
+    },
+    {
       "Id": "D:\\Desarrollos\\Intecap\\prj03_02\\prj03_02\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

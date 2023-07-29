@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G/7gRY9chX5RhtKM5D+Rsx+lT/r5yzAcE/3rYqcsxRI=",
+  "Hash": "riVHnToFY2veLoNrdTlsOxdiUlJdtJJDzipj2xoP0Qg=",
   "Source": "prj03_02",
   "BasePath": "_content/prj03_02",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Desarrollos\\Intecap\\prj03_02\\prj03_02\\wwwroot\\css\\Styles.css",
+      "SourceId": "prj03_02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desarrollos\\Intecap\\prj03_02\\prj03_02\\wwwroot\\",
+      "BasePath": "_content/prj03_02",
+      "RelativePath": "css/Styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Styles.css"
     },
     {
       "Identity": "D:\\Desarrollos\\Intecap\\prj03_02\\prj03_02\\wwwroot\\favicon.ico",
