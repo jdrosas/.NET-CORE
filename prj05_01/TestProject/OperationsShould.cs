@@ -22,5 +22,17 @@ namespace TestProject
             // Assert
             Assert.Equal(expected: square, actual: actual);
         }
+
+        [Fact]
+        public void ThrowOverflowForBigNumbers()
+        {
+            // Arrange
+            var sut = new Operations();
+            // Act & Assert
+            Assert.Throws<OverflowException>(() =>
+            {
+                int result = sut.Square(int.MaxValue);
+            });
+        }
     }
 }

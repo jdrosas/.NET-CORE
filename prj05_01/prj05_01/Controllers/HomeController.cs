@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using prj05_01.Data;
 using prj05_01.Models;
 using System.Diagnostics;
 
@@ -6,16 +7,18 @@ namespace prj05_01.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IWeatherForecastService _weatherForecastService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IWeatherForecastService forecastService)
         {
-            _logger = logger;
+            _weatherForecastService = forecastService; 
         }
 
         public IActionResult Index()
         {
-            return View();
+            var forecasts = _weatherForecastService.GetForecast(DateTime.Now);
+
+            return View(forecasts);
         }
 
         public IActionResult Privacy()
