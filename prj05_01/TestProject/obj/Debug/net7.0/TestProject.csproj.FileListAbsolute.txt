@@ -1,4 +1,4 @@
-D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\CoverletSourceRootsMapping
+D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\CoverletSourceRootsMapping_TestProject
 D:\Desarrollos\Intecap\prj05_01\TestProject\obj\Debug\net7.0\TestProject.csproj.AssemblyReference.cache
 D:\Desarrollos\Intecap\prj05_01\TestProject\obj\Debug\net7.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
 D:\Desarrollos\Intecap\prj05_01\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfoInputs.cache
@@ -19,6 +19,8 @@ D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\TestProject.deps.js
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\TestProject.runtimeconfig.json
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\TestProject.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\TestProject.pdb
+D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\FluentAssertions.dll
+D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\FluentAssertions.AspNetCore.Mvc.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -29,6 +31,8 @@ D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\Microsoft.TestPlatf
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\xunit.abstractions.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\xunit.assert.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\xunit.core.dll
@@ -98,6 +102,7 @@ D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\zh-Hans\Microsoft.V
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\prj05_01.dll
 D:\Desarrollos\Intecap\prj05_01\TestProject\bin\Debug\net7.0\prj05_01.pdb
 D:\Desarrollos\Intecap\prj05_01\TestProject\obj\Debug\net7.0\TestProject.csproj.CopyComplete

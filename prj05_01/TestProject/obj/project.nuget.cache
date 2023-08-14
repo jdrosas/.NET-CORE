@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5+P6QXSeWGQlItxYqFgxcjzr/qw82Ztxj5jf9nWkHYHP02Z9oqRjmBtVKU2Ob3eumQlb82Sh4jpeW3g1ndTs0g==",
+  "dgSpecHash": "0TdOYk1WVK4vXmSKXyaUmXyrv1NC33R/GZuBxOof2VOOIc1fyYhnkTk37jfgWqpX3n3L9DhWM/d9JLhQLR0+Lw==",
   "success": true,
   "projectFilePath": "D:\\Desarrollos\\Intecap\\prj05_01\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jrosas\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\jrosas\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
+    "C:\\Users\\jrosas\\.nuget\\packages\\fluentassertions.aspnetcore.mvc\\4.2.0\\fluentassertions.aspnetcore.mvc.4.2.0.nupkg.sha512",
     "C:\\Users\\jrosas\\.nuget\\packages\\microsoft.codecoverage\\17.7.0\\microsoft.codecoverage.17.7.0.nupkg.sha512",
     "C:\\Users\\jrosas\\.nuget\\packages\\microsoft.net.test.sdk\\17.7.0\\microsoft.net.test.sdk.17.7.0.nupkg.sha512",
     "C:\\Users\\jrosas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

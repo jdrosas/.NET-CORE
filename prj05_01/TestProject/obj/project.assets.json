@@ -24,6 +24,23 @@
           }
         }
       },
+      "FluentAssertions.AspNetCore.Mvc/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentAssertions": "6.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/FluentAssertions.AspNetCore.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FluentAssertions.AspNetCore.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CodeCoverage/17.7.0": {
         "type": "package",
         "compile": {
@@ -1853,6 +1870,23 @@
         "lib/netstandard2.1/FluentAssertions.dll",
         "lib/netstandard2.1/FluentAssertions.pdb",
         "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "FluentAssertions.AspNetCore.Mvc/4.2.0": {
+      "sha512": "sXuhx0XrdZ8foadjHSsa9HLFDfRjA/rDfUAP1CNkC3+AGmaneVDbWq8Fm8GeG5V0DNZ5X+lBcLE7oKNIk2L2Gw==",
+      "type": "package",
+      "path": "fluentassertions.aspnetcore.mvc/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentassertions.aspnetcore.mvc.4.2.0.nupkg.sha512",
+        "fluentassertions.aspnetcore.mvc.nuspec",
+        "lib/netcoreapp3.0/FluentAssertions.AspNetCore.Mvc.dll",
+        "lib/netcoreapp3.0/FluentAssertions.AspNetCore.Mvc.xml",
+        "lib/netstandard2.0/FluentAssertions.AspNetCore.Mvc.dll",
+        "lib/netstandard2.0/FluentAssertions.AspNetCore.Mvc.xml",
+        "ref/netcoreapp3.0/FluentAssertions.AspNetCore.Mvc.dll",
+        "ref/netstandard2.0/FluentAssertions.AspNetCore.Mvc.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.7.0": {
@@ -5660,6 +5694,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "FluentAssertions >= 6.11.0",
+      "FluentAssertions.AspNetCore.Mvc >= 4.2.0",
       "Microsoft.NET.Test.Sdk >= 17.7.0",
       "coverlet.collector >= 6.0.0",
       "prj05_01 >= 1.0.0",
@@ -5713,6 +5748,10 @@
           "FluentAssertions": {
             "target": "Package",
             "version": "[6.11.0, )"
+          },
+          "FluentAssertions.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

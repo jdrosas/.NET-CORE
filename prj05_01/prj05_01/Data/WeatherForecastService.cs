@@ -10,7 +10,7 @@ namespace prj05_01.Data
         };
         public WeatherForecast[] GetForecast(DateTime startDate)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 100).Select(index => new WeatherForecast
             {
                 Date = startDate.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
