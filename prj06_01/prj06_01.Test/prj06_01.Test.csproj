@@ -23,4 +23,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\prj06_01\prj06_01.csproj" />
+  </ItemGroup>
+
 </Project>

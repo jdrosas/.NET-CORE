@@ -1,5 +1,15 @@
-﻿@{
+﻿@model IQueryable<Product>
+
+@{
     ViewData["Title"] = "Home Sport Store";
 }
 
-<h4>Welcome to SportsStore</h4>
+@foreach (var p in Model ?? Enumerable.Empty<Product>())
+{
+    <div>
+        <h3>@p.Name</h3>
+        @p.Description
+        <h4>@p.Price.ToString("c")</h4>
+    </div>
+}
+

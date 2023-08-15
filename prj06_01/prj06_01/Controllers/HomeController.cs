@@ -6,9 +6,19 @@ namespace prj06_01.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private IStoreRepository repository;
+        public int PageSize = 4;
+        public HomeController(IStoreRepository repo)
         {
-            return View();
+            repository = repo;
         }
+
+        //public IActionResult Index() => View(repository.Products);
+
+        public ViewResult Index(int productPage = 1)
+            => View(repository.Products
+                .OrderBy(p => p.ProductID)
+                .Skip((productPage - 1) * PageSize)
+                .Take(PageSize));
     }
 }
